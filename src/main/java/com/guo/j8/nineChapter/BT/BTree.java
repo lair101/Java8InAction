@@ -169,19 +169,6 @@ public class BTree {
         return height;
     }
 
-    public class TreeNode {
-
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int val) {
-            this.val = val;
-            this.left = null;
-            this.right = null;
-        }
-    }
-
 
     class ListNode {
       int val;
