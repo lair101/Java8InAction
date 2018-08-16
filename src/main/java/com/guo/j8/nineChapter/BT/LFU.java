@@ -163,15 +163,15 @@ public class LFU {
 	public void test() {
 		LFU l = new LFU(2);
 		l.put(1, 1);
-		// l.put(2,2);
-		// System.out.println(l.get(1));
-		// l.put(3,3);
-		// System.out.println(l.get(2));
-		// System.out.println(l.get(3));
-		// l.put(4,4);
-		// System.out.println(l.get(1));
-		// System.out.println(l.get(3));
-		// System.out.println(l.get(4));
+		l.put(2, 2);
+		System.out.println(l.get(1));
+		l.put(3, 3);
+		System.out.println(l.get(2));
+		System.out.println(l.get(3));
+		l.put(4, 4);
+		System.out.println(l.get(1));
+		System.out.println(l.get(3));
+		System.out.println(l.get(4));
 	}
 
 }
